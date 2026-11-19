@@ -4,7 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pickle Cue Pickleball Club</title>
-<meta name="description" content="Pickle Cue Pickleball Club — open play sessions and court rentals on our 2 outdoor courts. Break & Drive.">
+<meta name="description" content="Pickleball open play and court rentals on 2 outdoor courts, plus billiards, in Science City of Muñoz, Nueva Ecija. Open daily 5–11 PM.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pickle Cue Pickleball Club">
+<meta property="og:title" content="Pickle Cue Pickleball Club — Break &amp; Drive">
+<meta property="og:description" content="Pickleball open play and court rentals on 2 outdoor courts, plus billiards, in Science City of Muñoz, Nueva Ecija. Open daily 5–11 PM.">
+<meta property="og:url" content="https://pansitlugaw.github.io/pickle-cue/">
+<meta property="og:image" content="https://pansitlugaw.github.io/pickle-cue/assets/share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Pickle Cue Pickleball Club logo — Break &amp; Drive">
+<meta property="og:locale" content="en_PH">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#17321f">
 <link rel="icon" href="assets/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -119,6 +131,11 @@
   footer { border-top: 1px solid rgba(23,50,31,.12); padding: 28px 0 40px; text-align: center; font-size: .85rem; color: var(--muted); }
   footer .motto { font-weight: 700; font-style: italic; letter-spacing: .2em; color: var(--green); border: 2px solid var(--green); border-radius: 999px; padding: 6px 18px; display: inline-block; margin-bottom: 12px; }
 
+  .map { position: relative; margin-top: 36px; border-radius: 18px; overflow: hidden; border: 1px solid rgba(23,50,31,.15); background: var(--cream-2); }
+  .map iframe { display: block; width: 100%; height: 360px; border: 0; }
+  .map-btn { position: absolute; right: 14px; bottom: 14px; box-shadow: 0 6px 18px rgba(0,0,0,.2); }
+  @media (max-width: 640px) { .map iframe { height: 280px; } }
+
   footer .fb { display: inline-flex; align-items: center; gap: 8px; color: var(--green); font-weight: 600; text-decoration: none; }
   footer .fb:hover { text-decoration: underline; text-decoration-color: var(--yellow); text-decoration-thickness: 3px; text-underline-offset: 5px; }
 
@@ -221,7 +238,7 @@
     <div class="info">
       <div>
         <h4>Location</h4>
-        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Villa+Javier%2C+Science+City+of+Mu%C3%B1oz%2C+Nueva+Ecija" target="_blank" rel="noopener">Villa Javier, Science City of Muñoz, Nueva Ecija</a></p>
+        <p><a href="https://www.google.com/maps/place/Pickle+cue/@15.722691,120.9182166,17z/data=!4m6!3m5!1s0x3390d7006a583279:0xc2e473771f314d0c!8m2!3d15.722691!4d120.9182166!16s%2Fg%2F11z_4fwbd8" target="_blank" rel="noopener">Villa Javier, Science City of Muñoz, Nueva Ecija</a></p>
       </div>
       <div>
         <h4>Hours</h4>
@@ -236,6 +253,10 @@
         <p><a href="https://m.me/ch/97NtbXh65bJyTkrY/" target="_blank" rel="noopener">Message us on Messenger</a><br>
           <a href="https://www.facebook.com/p/Pickle-Cue-Mu%C3%B1oz-61595596165976/" target="_blank" rel="noopener">Follow us on Facebook</a></p>
       </div>
+    </div>
+    <div class="map">
+      <iframe title="Map to Pickle Cue" src="https://maps.google.com/maps?q=15.722691,120.9182166&amp;z=17&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      <a class="btn btn-primary map-btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=15.722691,120.9182166" target="_blank" rel="noopener">Get Directions</a>
     </div>
     <div class="btns" style="justify-content:flex-start;margin-top:36px">
       <a class="btn btn-primary" href="https://m.me/ch/97NtbXh65bJyTkrY/" target="_blank" rel="noopener">Book a Court</a>
